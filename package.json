@@ -1,0 +1,10 @@
+{
+  "name": "robthebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Robson Trasel <robson.trasel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
