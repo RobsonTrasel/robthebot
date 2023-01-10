@@ -6,5 +6,10 @@
   "license": "MIT",
   "dependencies": {
     "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.1.2"
   }
 }
