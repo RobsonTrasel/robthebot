@@ -4,10 +4,16 @@
   "main": "index.js",
   "author": "Robson Trasel <robson.trasel@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
+    "@open-wa/wa-automate": "^4.55.0",
+    "@open-wa/wa-decrypt": "^4.4.0",
     "@types/jest": "^29.2.5",
     "@types/node": "^18.11.18",
     "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
     "typescript": "^4.9.4"
   },
   "devDependencies": {

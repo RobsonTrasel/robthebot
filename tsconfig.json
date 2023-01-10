@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES6",
+    "target": "ES2017",
+    "types": ["node", "jest"],
     "module": "commonjs",
     "lib": [
       "ESNext",
       "DOM"
     ],
+    "resolveJsonModule": true,
+    "allowJs": true,
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
@@ -28,5 +31,6 @@
     "forceConsistentCasingInFileNames": true
   },
   "exclude": ["node_modules", "dist", "tests"],
-  "include": ["index.ts", "src/**/*.ts"]
+  "include": ["index.ts", "src/**/*.ts"],
+  "compileOnSave": true
 }
